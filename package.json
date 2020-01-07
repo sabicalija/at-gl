@@ -1,0 +1,18 @@
+{
+  "name": "at-gl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sabicalija/at-gl.git",
+  "author": "Alija Sabic <sabic.alija@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vuepress": "^1.2.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
